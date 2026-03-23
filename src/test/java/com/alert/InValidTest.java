@@ -36,7 +36,7 @@ public void invalidTesting(String user,String password) throws InterruptedExcept
 			.getText();
 
 	Assert.assertTrue(actulResult.contains("Epic sadface: Username and password do not match any user in this service"));
-	System.out.println("Invalid user Testing: "+user);
+	System.out.println("Invalid UserName Testing: "+user);
 }
 
 @DataProvider(name="invalid")
