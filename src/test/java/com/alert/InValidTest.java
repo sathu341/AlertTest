@@ -71,5 +71,6 @@ public Object[][] getData(){
 public void closeBrowser()
 {
 	this.driver.close();
+	System.out.println("Test Completed");
 }
 }
