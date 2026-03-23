@@ -1,0 +1,7 @@
+<suite>
+<test name="Mytest">
+<classes>
+<class  name="com.alert.InValidTest"></class>
+</classes>
+</test>
+</suite>
